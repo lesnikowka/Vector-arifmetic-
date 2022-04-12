@@ -58,8 +58,6 @@ public:
 
 	double& operator[](int i) const;
 
-	void print() const;
-
 	int getsize() const;
 
 	static int getcounter() { return counter; }
